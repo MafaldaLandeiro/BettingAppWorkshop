@@ -34,7 +34,7 @@ class BettingApp {
 
         while ((currentPlayer?.balance ?: 0) > 0) {
             println("\nYour Balance: ${currentPlayer?.balance} credits")
-            println("Choose a game: 1) Coin Toss  2) Dice Roll  3) Horse Race  4) Bet on Multiple Games  5) Exit  6) Show Leaderboard")
+            println("Choose a game: 1) Coin Toss  2) Dice Roll  3) Horse Race  4) Bet on Multiple Games  5) Show Leaderboard  6) Exit ")
             val choice = readLine()?.toIntOrNull()
 
             when (choice) {
