@@ -1,0 +1,47 @@
+/*plugins {
+    id 'org.jetbrains.kotlin.jvm' version '2.1.10'
+    id 'application'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:2.1.10"
+    // Kotlin Coroutines Core Dependency
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0"
+    // Optional if you are using JDK 8 feature
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.7.0"
+
+    testImplementation "org.jetbrains.kotlin:kotlin-test-junit5:2.1.10"
+    testImplementation "org.junit.jupiter:junit-jupiter:5.10.0"
+}
+
+test {
+    useJUnitPlatform()
+}
+
+kotlin {
+    jvmToolchain(8)
+}
+
+application {
+    mainClass = 'MainKt'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/kotlin']
+        }
+    }
+    test {
+        java {
+            srcDirs = ['src/test/kotlin']
+        }
+    }
+}*/
